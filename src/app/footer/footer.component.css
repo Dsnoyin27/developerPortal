@@ -1,0 +1,28 @@
+a ,
+a:hover,
+a:active,
+a:visited {
+  color: #000;
+}
+
+footer{
+  padding: 30px 0 30px 0;
+  background-color: #fff;
+
+}
+#same-line li {
+  list-style: none;
+  display: inline;
+  margin: auto;
+  text-align: center;
+}
+
+#copy{
+  padding-right: 270px;
+  padding-left: 100px;
+}
+
+a{
+  text-decoration: none;
+
+}

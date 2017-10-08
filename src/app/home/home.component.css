@@ -1,0 +1,144 @@
+.main {
+  background-image: url("./assets/background.png");
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+h1 {
+  color: #ffffff;
+}
+
+.p {
+  color: #ffffff;
+}
+
+p {
+  color: #000;
+}
+
+
+/* li .documentation{
+  color: #fff;
+  text-decoration: none;
+}
+li .register{
+  color: #fff;
+  text-decoration: none;
+} */
+
+.logo-image {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  height: 80px;
+}
+
+.mx-auto {
+  display: block;
+  margin: 0;
+  width: 200px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.float-right {
+  margin: 0 0 10px 10px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+}
+.col {
+  flex: 1 0 50%;
+}
+
+.float-left {
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 400px;
+}
+#text-image{
+  margin: auto;
+  padding-top: 10px;
+}
+
+.btn-max {
+  background: #daa520;
+  color: #FFF;
+  border-color: #daa520;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  transition: all 0.25s ease;
+}
+
+.side-text {
+  margin-left: 300px;
+  margin-right: 150px;
+  margin-top: 50px;
+  float: left;
+}
+
+#btn-color {
+  background-color: #fff;
+  color: #000;
+  height: 50px;
+  width: 100px;
+}
+
+.round-image {
+  margin-top: 50px;
+  height: 150px;
+  margin: auto;
+}
+
+.copy {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  text-align: center;
+
+}
+#color-change{
+  background-color: #f7f7f7;
+  width: 100%;
+
+
+
+}
+.row {
+  overflow-x: hidden;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+
+
+h4 {
+  color: #daa520;
+  font-family: "Lato", sans-serif;;
+}
+
+.h3 {
+  color: #000;
+
+}
+
+/* max color ;
+#f7f7f7;
+<img cdn-src="business/integration-full.png" alt="" src="https://res.cloudinary.com/max-ng/maxweb_img/business/integration-full.png"> */

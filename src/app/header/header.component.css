@@ -1,0 +1,75 @@
+#header{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+#header-nav li {
+  list-style: none;
+  display: inline;
+  font-family: "Loto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-right: 30px;
+
+}
+#header-actions{
+  float: right;
+  background-color: #fff;
+  border-color: #daa520;
+  font-family: "Loto", sans-serif;
+  font-weight: 300;
+  color: #000;
+  margin-right: 50%;
+  padding-left: 10px;
+  height: 50px;
+  width: 150px;
+}
+
+#header-actions:hover{
+  background-color: #daa520;
+}
+
+a{
+  text-decoration: none;
+
+}
+li > a{
+ border-bottom: 3px solid;
+ padding: 37px 1px 24px;
+ background-color: transparent;
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #daa520;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+ li .dashboard{
+  margin-left: 100px;
+
+}
+hr{
+  width: 40%;
+  margin-left: 95px;
+  margin-top: 20px;
+  border: 2px solid;
+  color: #fff;
+
+}
+
+.col {
+  flex: 1 0 50%;
+}
