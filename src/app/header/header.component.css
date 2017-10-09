@@ -1,8 +1,11 @@
 #header{
   margin-top: 50px;
   margin-left: 100px;
+  margin-bottom: 100px;
 }
-
+.logo-image{
+  height: 50px;
+}
 #header-nav li {
   list-style: none;
   display: inline;
@@ -22,6 +25,7 @@
   color: #000;
   margin-right: 50%;
   padding-left: 10px;
+  margin-top: -10px;
   height: 50px;
   width: 150px;
 }
@@ -35,7 +39,7 @@ a{
 
 }
 li > a{
- border-bottom: 3px solid;
+ /* border-bottom: 3px solid; */
  padding: 37px 1px 24px;
  background-color: transparent;
 }
@@ -58,7 +62,7 @@ a:active {
   color: blue;
 }
  li .dashboard{
-  margin-left: 100px;
+  margin-left: 10px;
 
 }
 hr{
