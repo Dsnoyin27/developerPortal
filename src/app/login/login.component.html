@@ -1,19 +1,12 @@
 
 
 
-<div class="container">
 <div class="login-wrapper">
-    <form class="login">
+    <form (ngSubmit)="onSubmit()" class="login" #userForm="ngForm">
         <label class="title">
             <h3 class="welcome">Sign in to MAX</h3>
         </label>
         <div class="login-group">
-            <div class="auth-source select">
-                <select id="login-auth-source-1">
-                    <option>Local Users</option>
-                    <option>Administrator</option>
-                </select>
-            </div>
             <input class="email" type="text" id="login_username" placeholder="Email">
 
             <input class="password" type="password" id="login_password" placeholder="Password">
@@ -24,7 +17,8 @@
                     Remember me
                 </label>
             </div>
-            <div class="error active">
+            <div *ngIf="name.valid || name.pristine"
+            class="error active" >
                 Invalid user name or password
             </div>
             <a [routerLink]="['/deliveries']" class="delivery">
@@ -33,5 +27,4 @@
            <span> Dont have an account? &nbsp; <a [routerLink]="['/signup']" class="signup">Sign up</a></span>
         </div>
     </form>
-</div>
 </div>

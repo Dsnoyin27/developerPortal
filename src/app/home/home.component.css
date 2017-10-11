@@ -61,7 +61,7 @@ li .register{
 .float-left {
   border-radius: 20px;
   margin-bottom: 10px;
-  width: 500px;
+  width: 600px;
   height: 400px;
 }
 #text-image{
@@ -70,11 +70,13 @@ li .register{
 }
 
 .btn-max {
-  background: #daa520;
-  color: #FFF;
-  border-color: #daa520;
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
 }
-
+#button-hover:hover{
+  background-color: #daa520;
+}
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 300;

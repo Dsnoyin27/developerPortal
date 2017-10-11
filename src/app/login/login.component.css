@@ -1,0 +1,12 @@
+.login-wrapper{
+  background-image: url("../home/assets/login-bkg2_1024.jpg");
+  background-repeat: repeat;
+
+}
+
+.error{
+  background-color: #D80505;
+}
+.active{
+  background-color: #22EB33;
+}
