@@ -1,0 +1,49 @@
+.login-wrapper{
+  background-image: url("../home/assets/login-bkg3.jpg");
+  background-repeat: repeat;
+
+}
+.checkbox{
+  margin-top: 20px;
+}
+.signup{
+  margin: auto;
+  color: #daa520;
+}
+.welcome{
+  font-weight: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-left: 60px;
+}
+
+.logo-image {
+  display: block;
+  margin: auto;
+  margin-top: 30%;
+  height: 80px;
+
+}
+.mx-auto {
+  display: block;
+  margin: 0;
+  width: 200px;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#login_email{
+  margin-bottom: 30px;
+}
+
+#gold{
+  background-color: #daa520;
+  border-color: #daa520;
+  color: #000;
+  margin-top: 20px;
+}
+
