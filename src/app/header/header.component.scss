@@ -1,66 +1,69 @@
+$max: #daa520;
+$black: #000;
+$white: #fff;
+$font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 #header{
   margin-top: 50px;
   margin-left: 100px;
   margin-bottom: 100px;
 }
+
 .logo-image{
   height: 50px;
 }
 #header-nav li {
   list-style: none;
   display: inline;
-  font-family: "Loto", sans-serif;
+  font-family: $font;
   font-weight: 300;
   font-size: 15px;
   padding-top: 50px;
   padding-right: 30px;
 
 }
+
 #header-actions{
   float: right;
-  background-color: #fff;
-  border-color: #fff;
-  font-family: "Loto", sans-serif;
+  background-color: $white;
+  border-color:  $white;
+  font-family: $font;
   font-weight: 300;
-  color: #000;
+  color: $black;
   margin-right: 50%;
   padding-left: 10px;
   margin-top: -5px;
   height: 50px;
   width: 150px;
 }
-
-#header-actions:hover{
-  background-color: #daa520;
+#header-actions:hover {
+  background-color: $max;
+  border-color: $max;
 }
+
+
 
 a{
   text-decoration: none;
-
 }
 li > a{
- /* border-bottom: 3px solid; */
  padding: 37px 1px 24px;
  background-color: transparent;
 }
 a:link {
-  color: red;
+  color: green;
 }
 
-/* visited link */
 a:visited {
-  color: #fff;
+  color:  $white;
 }
-
-/* mouse over link */
 a:hover {
-  color: #daa520;
+  color: $max;
 }
-
-/* selected link */
 a:active {
   color: blue;
 }
+
  li .dashboard{
   margin-left: 10px;
 
@@ -70,7 +73,7 @@ hr{
   margin-left: 95px;
   margin-top: 20px;
   border: 2px solid;
-  color: #fff;
+  color:  $white;
 
 }
 

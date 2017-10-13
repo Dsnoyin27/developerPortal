@@ -1,3 +1,9 @@
+$white: #fff;
+$black: #000;
+$max: #daa520;
+$font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
 .main {
   background-image: url("./assets/background.png");
   overflow: auto;
@@ -6,41 +12,32 @@
   overflow-x: hidden;
 }
 
-
-h1 {
-  color: #ffffff;
+h1, .p, .mx-auto, .copy {
+  color: $white;
 }
 
-.p {
-  color: #ffffff;
+p, .btn-max, #btn-color, .h3{
+  color: $black;
+}
+.logo-image, .mx-auto{
+  display: block;
+}
+.logo-image, #text-image, .round-image{
+  margin: auto;
+}
+.container, .btn-max, #btn-color, #row{
+  background-color: $white;
 }
 
-p {
-  color: #000;
-}
-
-
-/* li .documentation{
-  color: #fff;
-  text-decoration: none;
-}
-li .register{
-  color: #fff;
-  text-decoration: none;
-} */
 
 .logo-image {
-  display: block;
-  margin: auto;
   margin-top: 50px;
   height: 80px;
 }
 
 .mx-auto {
-  display: block;
   margin: 0;
   width: 200px;
-  color: #fff;
   font-size: 20px;
   text-align: center;
   margin-top: 10px;
@@ -54,6 +51,7 @@ li .register{
   margin-bottom: 50px;
   margin-left: 30%;
 }
+
 .col {
   flex: 1 0 50%;
 }
@@ -64,23 +62,28 @@ li .register{
   width: 600px;
   height: 400px;
 }
-#text-image{
-  margin: auto;
+
+#text-image {
   padding-top: 10px;
 }
 
 .btn-max {
-  background-color: #fff;
-  color: #000;
-  border-color: #fff;
+  border-color: $white;
 }
-#button-hover:hover{
-  background-color: #daa520;
+
+
+#button-hover:hover {
+  background-color: $max;
 }
+
 .btn {
-  font-family: "Roboto", sans-serif;
+  font-family: $font;
   font-weight: 300;
   transition: all 0.25s ease;
+}
+
+.btn:hover {
+  border-color: $max;
 }
 
 .side-text {
@@ -91,8 +94,6 @@ li .register{
 }
 
 #btn-color {
-  background-color: #fff;
-  color: #000;
   height: 50px;
   width: 100px;
 }
@@ -100,28 +101,19 @@ li .register{
 .round-image {
   margin-top: 50px;
   height: 150px;
-  margin: auto;
 }
 
-.copy {
-  color: #fff;
-}
 
 .container {
   display: flex;
   padding-top: 70px;
   padding-bottom: 70px;
-
   text-align: center;
-
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-left: 50px;
 }
-#color-change{
-  background-color: #f7f7f7;
-  width: 100%;
 
-
-
-}
 .row {
   overflow-x: hidden;
   margin: 0;
@@ -131,16 +123,3 @@ li .register{
 
 
 
-h4 {
-  color: #daa520;
-  font-family: "Lato", sans-serif;;
-}
-
-.h3 {
-  color: #000;
-
-}
-
-/* max color ;
-#f7f7f7;
-<img cdn-src="business/integration-full.png" alt="" src="https://res.cloudinary.com/max-ng/maxweb_img/business/integration-full.png"> */
